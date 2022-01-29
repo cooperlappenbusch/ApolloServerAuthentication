@@ -2,7 +2,7 @@ const Message = require('../../models/Message');
 
 module.exports = {
     Mutation: {
-        async createMessage(_, {messageInput: {text, username} }) {
+        async createMessage(_, {messageInput: {text, username} }) { 
             const newMessage = new Message({
                 text: text,
                 createdBy: username,
