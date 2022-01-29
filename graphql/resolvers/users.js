@@ -32,7 +32,7 @@ module.exports = {
 
             const token = jwt.sign(
                 { user_id: newUser._id, email },
-                "This is an unsafe string which is a signifigant security concern",
+                "UNSAFESTRING",
                 {
                   expiresIn: "2h",
                 }
@@ -59,7 +59,7 @@ module.exports = {
                 // Create token
                 const token = jwt.sign(
                   { user_id: user._id, email },
-                  "This is an unsafe string which is a signifigant security concern",
+                  "UNSAFESTRING",
                   {
                     expiresIn: "2h",
                   }
