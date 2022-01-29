@@ -1,2 +1,2 @@
-﻿# ApolloServerSetup
-A basic implementation to set up Apollo Server with GraphQL and connect it to MongoDB Atlas
+﻿# ApolloServerAuthentication
+An easy to use Apollo Server authentication system using bcrypt and JWT, simply change the URI link in index.js to your MongoDB server and you're good to go!
